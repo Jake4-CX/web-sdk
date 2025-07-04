@@ -1,6 +1,4 @@
 {
-	"workbench.iconTheme": "material-icon-theme",
-	"workbench.colorTheme": "Atom One Dark",
 	"workbench.statusBar.visible": true,
 	"editor.renderWhitespace": "all",
 	"editor.largeFileOptimizations": false,
