@@ -39,7 +39,7 @@
 </script>
 
 <Story name="Preview">
-	{#snippet template(args)}
+	{#snippet children(args)}
 		<StoryPixiApp {assets}>
 			<SpineProvider {...args} key="spineEvents">
 				<SpineTrack

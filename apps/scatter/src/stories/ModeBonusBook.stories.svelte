@@ -49,5 +49,4 @@
 			await playBet({ ...data, state: data.events });
 		},
 	})}
-	{template}
 />

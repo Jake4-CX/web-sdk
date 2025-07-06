@@ -100,13 +100,11 @@
 </script>
 
 <Story name="Demo without svelte">
-	{#snippet template()}
-		<ParticleDemoWithoutSvelte size={SIZE} />
-	{/snippet}
+	<ParticleDemoWithoutSvelte size={SIZE} />
 </Story>
 
 <Story name="Demo with partial svelte">
-	{#snippet template(args)}
+	{#snippet children(args)}
 		<StoryPixiApp {assets}>
 			<Rectangle
 				{...BOUNDARY}
@@ -124,7 +122,7 @@
 
 
 <Story name="Particles Preview">
-	{#snippet template(args)}
+	{#snippet children(args)}
 		<StoryPixiApp {assets}>
 			<Rectangle
 				{...BOUNDARY}

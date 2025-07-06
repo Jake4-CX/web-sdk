@@ -43,7 +43,6 @@
 		data: events.reveal,
 		action: async (data) => await playBookEvent(data, { bookEvents: [] }),
 	})}
-	{template}
 />
 
 <Story
@@ -53,7 +52,6 @@
 		data: events.setTotalWin,
 		action: async (data) => await playBookEvent(data, { bookEvents: [] }),
 	})}
-	{template}
 />
 
 <Story
@@ -63,7 +61,6 @@
 		data: events.freeSpinTrigger,
 		action: async (data) => await playBookEvent(data, { bookEvents: [] }),
 	})}
-	{template}
 />
 
 <Story
@@ -73,7 +70,6 @@
 		data: events.updateFreeSpin,
 		action: async (data) => await playBookEvent(data, { bookEvents: [] }),
 	})}
-	{template}
 />
 
 <Story
@@ -83,7 +79,6 @@
 		data: events.winInfo,
 		action: async (data) => await playBookEvent(data, { bookEvents: [] }),
 	})}
-	{template}
 />
 
 <Story
@@ -93,7 +88,6 @@
 		data: events.updateTumbleWin,
 		action: async (data) => await playBookEvent(data, { bookEvents: [] }),
 	})}
-	{template}
 />
 
 <Story
@@ -103,7 +97,6 @@
 		data: events.tumbleBoard,
 		action: async (data) => await playBookEvent(data, { bookEvents: [] }),
 	})}
-	{template}
 />
 
 <Story
@@ -113,7 +106,6 @@
 		data: events.updateGlobalMult,
 		action: async (data) => await playBookEvent(data, { bookEvents: [] }),
 	})}
-	{template}
 />
 
 <Story
@@ -123,7 +115,6 @@
 		data: events.boardMultiplierInfo,
 		action: async (data) => await playBookEvent(data, { bookEvents: [] }),
 	})}
-	{template}
 />
 
 <Story
@@ -133,7 +124,6 @@
 		data: events.setWin,
 		action: async (data) => await playBookEvent(data, { bookEvents: [] }),
 	})}
-	{template}
 />
 
 <Story
@@ -143,7 +133,6 @@
 		data: events.freeSpinEnd,
 		action: async (data) => await playBookEvent(data, { bookEvents: [] }),
 	})}
-	{template}
 />
 
 <Story
@@ -153,5 +142,4 @@
 		data: events.finalWin,
 		action: async (data) => await playBookEvent(data, { bookEvents: [] }),
 	})}
-	{template}
 />

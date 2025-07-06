@@ -1,5 +1,5 @@
 import type { Preview } from '@storybook/svelte';
-import { INITIAL_VIEWPORTS } from 'storybook/viewport';
+import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
 
 const preview: Preview = {
 	parameters: {
@@ -11,7 +11,8 @@ const preview: Preview = {
 			},
 		},
 		viewport: {
-			options: {
+			defaultViewport: 'stake',
+			viewports: {
 				...INITIAL_VIEWPORTS,
 				stake: {
 					name: 'stake iframe',
@@ -23,9 +24,6 @@ const preview: Preview = {
 			},
 		},
 	},
-	initialGlobals: {
-    viewport: { value: 'stake', isRotated: false },
-  },
 };
 
 export default preview;

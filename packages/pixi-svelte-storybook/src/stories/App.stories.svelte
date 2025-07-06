@@ -11,9 +11,7 @@
 </script>
 
 <Story name="Preview">
-	{#snippet template()}
-		<StoryPixiApp assets={{}}>
-			<Text text="App" style={{ fill: 0x000000 }} />
-		</StoryPixiApp>
-	{/snippet}
+	<StoryPixiApp assets={{}}>
+		<Text text="App" style={{ fill: 0x000000 }} />
+	</StoryPixiApp>
 </Story>
